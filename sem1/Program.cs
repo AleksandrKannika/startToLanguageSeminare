@@ -77,7 +77,7 @@ else
 }
 */
 //5. Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
-Console.Write("N: ");
+/*Console.Write("N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
 int negN = N * (-1);
@@ -86,3 +86,10 @@ while (negN <= N)
     Console.WriteLine(negN);
     negN++;
 }
+*/
+
+//7. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+int num = new Random().Next(100, 1000);
+Console.WriteLine("3-х значное число - " + num);
+num = num % 10;
+Console.Write("последняя цифра числа - " + num);
