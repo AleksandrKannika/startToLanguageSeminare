@@ -1,0 +1,15 @@
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.csproj.AssemblyReference.cache
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.GeneratedMSBuildEditorConfig.editorconfig
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.AssemblyInfoInputs.cache
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.AssemblyInfo.cs
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.csproj.CoreCompileInputs.cache
+C:\GeekBrains\languages\seminar\sem1\bin\Debug\net7.0\sem1.exe
+C:\GeekBrains\languages\seminar\sem1\bin\Debug\net7.0\sem1.deps.json
+C:\GeekBrains\languages\seminar\sem1\bin\Debug\net7.0\sem1.runtimeconfig.json
+C:\GeekBrains\languages\seminar\sem1\bin\Debug\net7.0\sem1.dll
+C:\GeekBrains\languages\seminar\sem1\bin\Debug\net7.0\sem1.pdb
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.dll
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\refint\sem1.dll
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.pdb
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\sem1.genruntimeconfig.cache
+C:\GeekBrains\languages\seminar\sem1\obj\Debug\net7.0\ref\sem1.dll
