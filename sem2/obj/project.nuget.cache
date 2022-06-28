@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yhv3fr3NW1bgupxUCUk5IMAGJczxFdDHDjguPuOUDiC+ivAaT4G4bVimSnkZFdlL/M6wZoCNZImBkVLWDevCUg==",
+  "success": true,
+  "projectFilePath": "C:\\GeekBrains\\languages\\seminar\\sem2\\sem2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\car11\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.5\\microsoft.netcore.app.ref.6.0.5.nupkg.sha512",
+    "C:\\Users\\car11\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.5\\microsoft.windowsdesktop.app.ref.6.0.5.nupkg.sha512",
+    "C:\\Users\\car11\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.5\\microsoft.aspnetcore.app.ref.6.0.5.nupkg.sha512",
+    "C:\\Users\\car11\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.5\\microsoft.netcore.app.host.win-x64.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
