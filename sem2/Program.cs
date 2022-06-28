@@ -29,3 +29,83 @@ Console.WriteLine($"наибольшее из двух чисел: {max}");
 }
 Console.WriteLine(IsMultiplicity());
 */
+
+
+
+//10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+Console.Clear();
+Console.WriteLine("2 цифра трехзначного числа");
+int N3x = new Random().Next(100, 1000);
+Console.WriteLine(N3x);
+N3x = (N3x % 100)/10;
+Console.WriteLine($"2 цифра - {N3x}");
+Console.WriteLine();
+
+//13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+Console.WriteLine("Третья цифра заданного числа");
+int numX = new Random().Next();
+Console.WriteLine(numX);
+while(numX>=1000)
+{
+    numX = numX/10;
+}
+if (numX <100)
+{
+Console.WriteLine("3 цифры нет");
+}
+else
+{
+    numX = numX%10;
+    Console.WriteLine("3 цифра - " + numX);
+}
+Console.WriteLine();
+
+//15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+Console.Write("Введите номер дня недели: ");
+int dayNumber = Convert.ToInt32(Console.ReadLine());
+if (1<= dayNumber && dayNumber <= 7)
+{
+    if (dayNumber == 1)
+    {
+        Console.Write("понедельник");
+    }
+    if (dayNumber == 2)
+    {
+        Console.Write("вторник");
+    }
+    if (dayNumber == 3)
+    {
+        Console.Write("среда");
+    }
+    if (dayNumber == 4)
+    {
+        Console.Write("четверг");
+    }
+    if (dayNumber == 5)
+    {
+        Console.Write("пятница");
+    }
+    if (dayNumber == 6)
+    {
+        Console.Write("суббота");
+    }
+    if (dayNumber == 7)
+    {
+        Console.Write("воскресенье");
+    }
+}
+else
+{
+    Console.Write("нужно ввести от 1 до 7");
+}
+if (dayNumber == 6 ^ dayNumber == 7)
+{
+    Console.WriteLine(" - это же выходной день!");
+}
+else
+{
+    Console.WriteLine(" - не сегодня");
+}
