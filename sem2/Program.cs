@@ -15,27 +15,43 @@ Console.WriteLine($"наибольшее из двух чисел: {max}");
 
 //11. Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
 
-
+// int x = new Random().Next(100,1000);
+// Console.WriteLine(x);
+// x = (x/100)*10 + x%10;
+// Console.WriteLine(x);
 
 //12. Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
 
+int number1 = 2;
+Console.WriteLine(number1);
+int number2 = 4;
+Console.WriteLine(number2);
+if (number1 % number2 == 0)
+{
+    Console.WriteLine($"число {number2} кратно {number1}");
+}
+else
+{
+    int number = number2 % number1;
+    Console.WriteLine(number);
+}
 
 
 //14. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
 
-/*bool IsMultiplicity(int number)
+/*int number = new Random().Next();
+Console.WriteLine(number);
+bool what(int number)
 {
     return(number % 7 == 0&& number %23 ==0);
 }
-Console.WriteLine(IsMultiplicity());
+Console.WriteLine(what(number));
 */
-
-
-
+ 
 //Домашнее задание
 //10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-Console.Clear();
+/*Console.Clear();
 Console.WriteLine("2 цифра трехзначного числа");
 int N3x = new Random().Next(100, 1000);
 Console.WriteLine(N3x);
@@ -110,3 +126,4 @@ else
 {
     Console.WriteLine(" - не сегодня");
 }
+*/
