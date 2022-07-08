@@ -62,7 +62,6 @@ Console.WriteLine(IsMultiplicity());
 //10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
 Console.Clear();
->>>>>>> 8cf2ecd (sem2 Домашнее задание)
 Console.WriteLine("2 цифра трехзначного числа");
 int N3x = new Random().Next(100, 1000);
 Console.WriteLine(N3x);
@@ -136,9 +135,7 @@ if (dayNumber == 6 ^ dayNumber == 7)
 else
 {
     Console.WriteLine(" - не сегодня");
-<<<<<<< HEAD
+
 }
-*/
-=======
-}
->>>>>>> 8cf2ecd (sem2 Домашнее задание)
+
+
