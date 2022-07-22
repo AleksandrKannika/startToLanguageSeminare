@@ -186,7 +186,7 @@ int[,] PrintMatrix(int[,] array)
 
 void FindElement(int[,] array)
 {
-    int searchNumber = int.Parse(Console.ReadLine()); // искомое число
+    int searchNumber = Convert.ToInt32(Console.ReadLine()); // искомое число
     int element = 0;//позиция в массиве
     if (searchNumber > array.Length || searchNumber < 1)
     {
